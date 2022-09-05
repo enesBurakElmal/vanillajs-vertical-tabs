@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" />
+    <title>Slider - Enes Burak Elmal</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="page-header">
+        <h2 class="header">Sizin için Seçtiklerimiz</h2>
+      </header>
+      <section class="page-wrapper">
+        <div class="tab-list">
+          <ul class="tab-list-wrapper swiper-wrapper"></ul>
+        </div>
+        <div class="product-list">
+          <div class="product-list-slider swiper">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <div class="pop-up-content">
+        <div class="pop-up-wrapper">
+          <div class="pop-up-text-content">
+            <div class="success-wrapper">
+              <p class="success-symbol">&#10003;</p>
+            </div>
+            <div class="pop-up-info">
+              <div class="pop-up-info-wrapper">
+                <h4 class="pop-up-product"></h4>
+              </div>
+              <a href="#" class="cart-items">Sepete Git</a>
+            </div>
+          </div>
+          <div class="pop-up-close-content">
+            <p class="pop-up-closer">&times;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
